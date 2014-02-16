@@ -1,0 +1,18 @@
+#include "/home/jph/.colors/current"
+
+Xft.dpi:                    96
+Xft.antialias:              false
+Xft.rgba:                   rgb
+Xft.hinting:				true
+Xft.hintstyle:				hintslight
+
+URxvt.font:					xft: Terminus:autohint=true:antialias=true:size=12
+URxvt.scrollBar:			false
+!URxvt.tintColor:			white
+!URxvt.fading:				15
+!URxvt.shading:				75
+!URxvt.inheritPixmap:		true
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: google-chrome
+URxvt.matcher.button: 1
+

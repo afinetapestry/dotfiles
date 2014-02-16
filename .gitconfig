@@ -1,0 +1,23 @@
+[include]
+	path = .gitconfig.local
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	stage = add
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	yolo = "!sh -c 'git commit -am \"`curl -s http://whatthecommit.com/index.txt`\"' -"
+[diff]
+	algorithm = patience
+[push]
+	default = simple
+[core]
+	excludesfile = .gitignore_global
+

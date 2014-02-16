@@ -1,0 +1,10 @@
+startup_message off
+# Run screen in 256 color made
+term screen-256color
+# Use bright colors for bold
+attrcolor b ".I"
+# Enable the scrollbars in xterm, ...
+termcapinfo xterm* ti@:te@
+# Disable visual bell
+vbell off
+
